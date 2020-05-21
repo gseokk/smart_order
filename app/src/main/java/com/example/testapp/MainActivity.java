@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         send_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.d("AAA", "asdfasdf");
+                Log.d("AAA", "asdfasqw");
                 EditText content=(EditText)findViewById(R.id.editText);
                 String get_content = content.getText().toString();
                 HashMap result = new HashMap<>();
